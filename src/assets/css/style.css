@@ -733,6 +733,16 @@ nav .btn-setting {
     color: #fff;
     font-size: 18px;
 }
+.main-title-crtv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.main-title-crtv h2 {
+    font-size: 85px;
+    margin-right: 25px;
+}
 section#home {
     margin: 0px 75px;
     box-shadow: 0 22px 50px 0 rgba(0,0,0,.15);
@@ -2542,10 +2552,45 @@ color: #ffffff;
 }
 .contact-box {
     /*background: #ffffff;*/
-    padding: 70px 50px;
+    /* padding: 70px 50px; */
 }
+
 .alert-danger {
     border-radius: 36px;
+}
+.cntfrm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 0;
+    background: transparent;
+}
+button.sbt {
+    width: 100%;
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 0;
+    transition: all 0.5s ease-in-out;
+}
+button.sbt:hover{
+    color: #fff;
+    background: #000;    
+}
+.bx-abt-btm .font-24 {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.bx-abt-btm span {
+    margin-right: 10px;
+}
+.bx-abt-btm h4 {
+    font-size: 20px;
+}
+.bx-abt-btm p{
+    font-size: 13px;
+    line-height: normal;
+    margin-top: 20px;
 }
 .contact-para-setting {
     max-width: 480px;
@@ -2806,9 +2851,37 @@ footer.bg-black2 {
 
 .bg-change .split-container-setting .main-title h5, .bg-change .split-container-setting .main-title h2,
 .bg-change .split-container-setting h6, .bg-change .split-container-setting p {
-    color: #ffffff;
+    color: #000;
 }
-
+.bg-change .split-container-setting .main-title h5{
+    font-size: 12px;
+}
+.bg-change .split-container-setting .main-title h2{
+    font-size: 21px;
+}
+.half-section .container-fluid{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.bx-blog img {
+    height: 100%;
+    min-height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+.bx-blog {
+    padding: 4.5%;
+    font-size: 17px;
+    line-height: 1.4090909091em;
+    color: #181b31;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .5);
+}
+.bx-blog .main-title{
+    text-align: left;
+    margin-bottom: 10px;
+}
 .split-container-setting.style-two {
     max-width: 460px;
     margin-left: 100px;
