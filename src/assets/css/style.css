@@ -799,6 +799,9 @@ section#home {
     display: block;
 }
 .menu_bars2 span {
+    background: #fff;
+}
+.menu_bars2 span {
     height: 1px;
 }
 .transparent-bg .menu_bars span, .menu-outer.menu_bars span {
