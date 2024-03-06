@@ -363,6 +363,8 @@ jQuery(function ($) {
         responsiveClass: true,
         nav: false,
         dots: true,
+        dotsEach: true,
+        dotData: true,
         dotsContainer: ".owl-thumbs",
         autoplay: false,
         autoplayHoverPause: true,
@@ -380,10 +382,10 @@ jQuery(function ($) {
                 items: 1,
                 margin: 30,
             }
-        }        
+        }
     });
 
-   
+
 
     /* Blog */
     $(".owl-split").owlCarousel({
