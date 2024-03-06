@@ -2441,7 +2441,13 @@ color: #ffffff;
     background: transparent;
     height: 70px;
 }
-
+.testimonial-assets\/images .owl-thumbs.owl-dots .owl-dot.active {
+    opacity: 1;
+    display: block;
+}
+.testimonial-assets\/images .owl-thumbs.owl-dots .owl-dot{
+    display: none;
+}
 /* @-webkit-keyframes zoom-one {
     0%   {-webkit-transform: scale(1);transform: scale(1);}
     40%  {-webkit-transform: scale(0.5);transform: scale(0.5);}
@@ -2473,6 +2479,53 @@ color: #ffffff;
     100% {-webkit-transform: scale(0.7);transform: scale(0.7);}
 } */
 
+.bx-ftr h4, .bx-ftr h3 {
+    color: rgba(255, 255, 255, .3);
+    font-size: 10px;
+    margin-bottom: 3em;
+}
+.bx-ftr h3{margin-bottom: 1em;}
+.bx-ftr h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+.bx-ftr ul li a{
+    font-size: 15px;
+    color: rgba(255, 255, 255, .7);
+}
+.bx-ftr ul li{
+    margin-bottom: 20px;
+}
+.bx-ftr input.form-control{
+    border-width: 1px;
+    border-style: solid;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    padding-left: 0;
+}
+input.ftsbt {
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.nbrtest {
+    line-height: 138px;
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #202020;
+}
+span.bigno {
+    font-size: 40px;
+    margin-right: 7px;
+}
 
 /* owl carousel brands */
 .brand-carousel.owl-carousel .owl-item img {
