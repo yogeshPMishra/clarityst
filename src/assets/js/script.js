@@ -222,10 +222,10 @@ jQuery(function ($) {
             sortByDimension: true,
             mediaQueries: [{
                 width: 1500,
-                cols: 4
+                cols: 3
             },{
                 width: 1100,
-                cols: 4
+                cols: 3
             }, {
                 width: 768,
                 cols: 2
@@ -380,8 +380,10 @@ jQuery(function ($) {
                 items: 1,
                 margin: 30,
             }
-        }
+        }        
     });
+
+   
 
     /* Blog */
     $(".owl-split").owlCarousel({
