@@ -1057,7 +1057,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .bottom-nav {
     height: 70px;
     top: auto;
-    bottom: 0;
+    bottom: 50px;
     /* border-bottom: solid 1px #2b2b2b; */
 }
 .header-appear .bottom-nav {
@@ -1740,10 +1740,10 @@ header.header-appear .navbar-top-default .header-social a:hover {
 }
 
 .rare-box {
-    
+
 }
 .about-img-small {
-    
+
 }
 .about ul li {
     font-weight: 400;
@@ -2578,7 +2578,7 @@ button.sbt {
 }
 button.sbt:hover{
     color: #fff;
-    background: #000;    
+    background: #000;
 }
 .bx-abt-btm .font-24 {
     font-size: 24px;

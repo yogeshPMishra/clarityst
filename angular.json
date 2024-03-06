@@ -33,7 +33,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/gsap/dist/gsap.min.js"
+
             ]
           },
           "configurations": {

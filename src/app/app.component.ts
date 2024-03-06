@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import {gsap} from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import { fromEvent, interval, Subscription } from 'rxjs';
 import { take } from 'rxjs/operators';
 
@@ -19,8 +19,6 @@ export class AppComponent {
   counter3: number = 0;
   constructor() {}
  ngOnInit(): void {
-  //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-  //Add 'implements OnInit' to the class.
   gsap.registerPlugin(ScrollTrigger);
 
   const textElements = gsap.utils.toArray('.text');
