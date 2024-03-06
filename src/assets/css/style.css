@@ -2346,15 +2346,18 @@ color: #ffffff;
 /* ===================================
     Clients Starts
 ====================================== */
-
+#clients .main-title{
+    text-align: left;
+    color: #fff;
+}
+#clients .main-title h2{
+    margin: 0;
+}
 .section-padding .col-lg-12 h5  {
     font-family: 'Roboto', sans-serif;
 }
 .testimonial-two {
     background: #202020;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 .testimonial-post {
     overflow: hidden;
@@ -2520,7 +2523,21 @@ input.ftsbt {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid #202020;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.line {
+    height: 1px;
+    background: #606060;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+.mrq img{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #606060;
+    filter: grayscale(100%);
 }
 span.bigno {
     font-size: 40px;
